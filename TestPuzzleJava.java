@@ -1,6 +1,4 @@
 package Week1.Puzzling;
-import java.util.ArrayList;
-import java.util.Random;
 import java.util.Arrays;
 public class TestPuzzleJava {
     
@@ -15,7 +13,7 @@ public class TestPuzzleJava {
         for (String password : passwordSet) {
             System.out.println(password);
         }
-        // -----Below is the 
+        // -----Below is the Sensei Bonus Stuff-----
         int[] arrayToShuffle1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         generator.shuffleArray(arrayToShuffle1);
         System.out.println("Shuffled Array 1: " + Arrays.toString(arrayToShuffle1));
